@@ -26,4 +26,12 @@ float kCHFRate = 1.22f;
     return input*kCHFRate;
 }
 
+- (NSString*)formatValue:(float)input {
+    return [NSString stringWithFormat:@"%.4f", input];
+}
+
+- (float)parseValue:(NSString*)input {
+    return [input floatValue];
+}
+
 @end

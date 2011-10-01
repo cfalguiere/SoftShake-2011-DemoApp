@@ -7,6 +7,7 @@
 //
 
 #import "SoftShakeDemoViewController.h"
+#import "CurrencyConverterService.h"
 
 @implementation SoftShakeDemoViewController
 
@@ -66,7 +67,11 @@
 #pragma mark - selectors
 
 -(IBAction)handleGoButton:(id)sender {
-    outputValue.text = @"999";   
+    CurrencyConverterService *converter = [[CurrencyConverterService alloc] init];
+    float sourceValue = [converter parseValue:inputValue.text];
+    float targetValue = [converter convert:sourceValue];
+    outputValue.text = [converter formatValue:targetValue];
+    converter = nil;
 }
 
 @end

@@ -28,4 +28,24 @@
     STAssertEqualsWithAccuracy(outputValue, expectedOutputValue, 2, nil);    
 }
 
+- (void)testFormatValue
+{
+    CurrencyConverterService *converter = [[CurrencyConverterService alloc] init];
+    float n = 1.2211f;
+    NSString *s = [converter formatValue:n];
+    STAssertEqualObjects(s, @"1.2211", nil);
+    converter = nil;
+}
+
+- (void)testParseValue
+{
+    CurrencyConverterService *converter = [[CurrencyConverterService alloc] init];
+    NSString *s = @"3.4";
+    float n = [converter parseValue:s];
+    STAssertEquals(n, 3.4f, nil);
+    converter = nil;
+    
+}
+
+
 @end

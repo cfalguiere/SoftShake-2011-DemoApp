@@ -12,4 +12,7 @@
 
 - (float)convert:(float)input;
 
+- (NSString*)formatValue:(float)input;
+- (float)parseValue:(NSString*)input;
+
 @end
