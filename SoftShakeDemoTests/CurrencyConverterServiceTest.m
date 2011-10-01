@@ -25,7 +25,7 @@
     float inputValue = 10; // EUR
     float expectedOutputValue = 12.2; // CHF
     float outputValue = [converter convert:inputValue];
-    STAssertEquals(outputValue, expectedOutputValue, nil);    
+    STAssertEqualsWithAccuracy(outputValue, expectedOutputValue, 2, nil);    
 }
 
 @end

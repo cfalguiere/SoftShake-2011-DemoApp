@@ -10,6 +10,8 @@
 
 @implementation CurrencyConverterService
 
+float kCHFRate = 1.22f;
+
 - (id)init
 {
     self = [super init];
@@ -21,7 +23,7 @@
 }
 
 - (float)convert:(float)input {
-    return input*1.22;
+    return input*kCHFRate;
 }
 
 @end
