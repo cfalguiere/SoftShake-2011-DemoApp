@@ -1,0 +1,21 @@
+# edit application name
+app_name: 'SoftShakeDemo'
+# edit provisioning profile name
+provisioning_profile: 'SoftShakeDemo'
+
+clone_folder: '../privatebuild'
+
+#server: '195.244.20.87'
+#user: 'valtech'
+#ssh_path: '~/SoftwareFactory/ssh/id_rsa_valtech_mobile_store'
+#store_path: ''
+#www_path: '/var/www/'
+
+server: '10.28.0.38'
+user: 'cfalguiere'
+ssh_path: '~/.ssh/id_rsa'
+store_path: '/mobilestore'  # note the leading /
+www_path: '/Library/WebServer/Documents/mobilestore'
+
+sign: 'iPhone Developer'
+users: 'iPad de Valtech'

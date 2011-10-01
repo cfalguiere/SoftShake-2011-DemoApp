@@ -26,6 +26,7 @@
 		DC2317C41437509D00D91876 /* SoftShakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317C31437509D00D91876 /* SoftShakeDemoTests.m */; };
 		DC2317D01437555C00D91876 /* CurrencyConverterServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317CE1437555C00D91876 /* CurrencyConverterServiceTest.m */; };
 		DC2317D31437563F00D91876 /* CurrencyConverterService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317D21437563F00D91876 /* CurrencyConverterService.m */; };
+		DC2317D414375F4000D91876 /* CurrencyConverterService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317D21437563F00D91876 /* CurrencyConverterService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,6 +288,7 @@
 			files = (
 				DC2317C41437509D00D91876 /* SoftShakeDemoTests.m in Sources */,
 				DC2317D01437555C00D91876 /* CurrencyConverterServiceTest.m in Sources */,
+				DC2317D414375F4000D91876 /* CurrencyConverterService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
