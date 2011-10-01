@@ -10,4 +10,5 @@
 
 @interface SoftShakeDemoTests : SenTestCase
 
+
 @end
