@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2317931437509C00D91876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317921437509C00D91876 /* UIKit.framework */; };
+		DC2317951437509C00D91876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317941437509C00D91876 /* Foundation.framework */; };
+		DC2317971437509C00D91876 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317961437509C00D91876 /* CoreGraphics.framework */; };
+		DC23179D1437509C00D91876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC23179B1437509C00D91876 /* InfoPlist.strings */; };
+		DC23179F1437509C00D91876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC23179E1437509C00D91876 /* main.m */; };
+		DC2317A31437509D00D91876 /* SoftShakeDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317A21437509D00D91876 /* SoftShakeDemoAppDelegate.m */; };
+		DC2317A51437509D00D91876 /* SoftShakeDemoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = DC2317A41437509D00D91876 /* SoftShakeDemoViewController.h */; };
+		DC2317A71437509D00D91876 /* SoftShakeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317A61437509D00D91876 /* SoftShakeDemoViewController.m */; };
+		DC2317AA1437509D00D91876 /* SoftShakeDemoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2317A81437509D00D91876 /* SoftShakeDemoViewController_iPhone.xib */; };
+		DC2317AD1437509D00D91876 /* SoftShakeDemoViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2317AB1437509D00D91876 /* SoftShakeDemoViewController_iPad.xib */; };
+		DC2317B51437509D00D91876 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317B41437509D00D91876 /* SenTestingKit.framework */; };
+		DC2317B61437509D00D91876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317921437509C00D91876 /* UIKit.framework */; };
+		DC2317B71437509D00D91876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317941437509C00D91876 /* Foundation.framework */; };
+		DC2317B81437509D00D91876 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2317961437509C00D91876 /* CoreGraphics.framework */; };
+		DC2317C01437509D00D91876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC2317BE1437509D00D91876 /* InfoPlist.strings */; };
+		DC2317C21437509D00D91876 /* SoftShakeDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DC2317C11437509D00D91876 /* SoftShakeDemoTests.h */; };
+		DC2317C41437509D00D91876 /* SoftShakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317C31437509D00D91876 /* SoftShakeDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2317B91437509D00D91876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2317851437509C00D91876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC23178D1437509C00D91876;
+			remoteInfo = SoftShakeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC23178E1437509C00D91876 /* SoftShakeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftShakeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2317921437509C00D91876 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC2317941437509C00D91876 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC2317961437509C00D91876 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC23179A1437509C00D91876 /* SoftShakeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoftShakeDemo-Info.plist"; sourceTree = "<group>"; };
+		DC23179C1437509C00D91876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC23179E1437509C00D91876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC2317A01437509C00D91876 /* SoftShakeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoftShakeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DC2317A11437509C00D91876 /* SoftShakeDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftShakeDemoAppDelegate.h; sourceTree = "<group>"; };
+		DC2317A21437509D00D91876 /* SoftShakeDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftShakeDemoAppDelegate.m; sourceTree = "<group>"; };
+		DC2317A41437509D00D91876 /* SoftShakeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftShakeDemoViewController.h; sourceTree = "<group>"; };
+		DC2317A61437509D00D91876 /* SoftShakeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftShakeDemoViewController.m; sourceTree = "<group>"; };
+		DC2317A91437509D00D91876 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SoftShakeDemoViewController_iPhone.xib; sourceTree = "<group>"; };
+		DC2317AC1437509D00D91876 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SoftShakeDemoViewController_iPad.xib; sourceTree = "<group>"; };
+		DC2317B31437509D00D91876 /* SoftShakeDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftShakeDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2317B41437509D00D91876 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC2317BD1437509D00D91876 /* SoftShakeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoftShakeDemoTests-Info.plist"; sourceTree = "<group>"; };
+		DC2317BF1437509D00D91876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC2317C11437509D00D91876 /* SoftShakeDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftShakeDemoTests.h; sourceTree = "<group>"; };
+		DC2317C31437509D00D91876 /* SoftShakeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftShakeDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC23178B1437509C00D91876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2317931437509C00D91876 /* UIKit.framework in Frameworks */,
+				DC2317951437509C00D91876 /* Foundation.framework in Frameworks */,
+				DC2317971437509C00D91876 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2317AF1437509D00D91876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2317B51437509D00D91876 /* SenTestingKit.framework in Frameworks */,
+				DC2317B61437509D00D91876 /* UIKit.framework in Frameworks */,
+				DC2317B71437509D00D91876 /* Foundation.framework in Frameworks */,
+				DC2317B81437509D00D91876 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2317831437509C00D91876 = {
+			isa = PBXGroup;
+			children = (
+				DC2317981437509C00D91876 /* SoftShakeDemo */,
+				DC2317BB1437509D00D91876 /* SoftShakeDemoTests */,
+				DC2317911437509C00D91876 /* Frameworks */,
+				DC23178F1437509C00D91876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC23178F1437509C00D91876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC23178E1437509C00D91876 /* SoftShakeDemo.app */,
+				DC2317B31437509D00D91876 /* SoftShakeDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2317911437509C00D91876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC2317921437509C00D91876 /* UIKit.framework */,
+				DC2317941437509C00D91876 /* Foundation.framework */,
+				DC2317961437509C00D91876 /* CoreGraphics.framework */,
+				DC2317B41437509D00D91876 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC2317981437509C00D91876 /* SoftShakeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC2317A11437509C00D91876 /* SoftShakeDemoAppDelegate.h */,
+				DC2317A21437509D00D91876 /* SoftShakeDemoAppDelegate.m */,
+				DC2317A41437509D00D91876 /* SoftShakeDemoViewController.h */,
+				DC2317A61437509D00D91876 /* SoftShakeDemoViewController.m */,
+				DC2317A81437509D00D91876 /* SoftShakeDemoViewController_iPhone.xib */,
+				DC2317AB1437509D00D91876 /* SoftShakeDemoViewController_iPad.xib */,
+				DC2317991437509C00D91876 /* Supporting Files */,
+			);
+			path = SoftShakeDemo;
+			sourceTree = "<group>";
+		};
+		DC2317991437509C00D91876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC23179A1437509C00D91876 /* SoftShakeDemo-Info.plist */,
+				DC23179B1437509C00D91876 /* InfoPlist.strings */,
+				DC23179E1437509C00D91876 /* main.m */,
+				DC2317A01437509C00D91876 /* SoftShakeDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2317BB1437509D00D91876 /* SoftShakeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2317C11437509D00D91876 /* SoftShakeDemoTests.h */,
+				DC2317C31437509D00D91876 /* SoftShakeDemoTests.m */,
+				DC2317BC1437509D00D91876 /* Supporting Files */,
+			);
+			path = SoftShakeDemoTests;
+			sourceTree = "<group>";
+		};
+		DC2317BC1437509D00D91876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2317BD1437509D00D91876 /* SoftShakeDemoTests-Info.plist */,
+				DC2317BE1437509D00D91876 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC23178D1437509C00D91876 /* SoftShakeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2317C71437509D00D91876 /* Build configuration list for PBXNativeTarget "SoftShakeDemo" */;
+			buildPhases = (
+				DC23178A1437509C00D91876 /* Sources */,
+				DC23178B1437509C00D91876 /* Frameworks */,
+				DC23178C1437509C00D91876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftShakeDemo;
+			productName = SoftShakeDemo;
+			productReference = DC23178E1437509C00D91876 /* SoftShakeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2317B21437509D00D91876 /* SoftShakeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2317CA1437509D00D91876 /* Build configuration list for PBXNativeTarget "SoftShakeDemoTests" */;
+			buildPhases = (
+				DC2317AE1437509D00D91876 /* Sources */,
+				DC2317AF1437509D00D91876 /* Frameworks */,
+				DC2317B01437509D00D91876 /* Resources */,
+				DC2317B11437509D00D91876 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2317BA1437509D00D91876 /* PBXTargetDependency */,
+			);
+			name = SoftShakeDemoTests;
+			productName = SoftShakeDemoTests;
+			productReference = DC2317B31437509D00D91876 /* SoftShakeDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2317851437509C00D91876 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DC2317881437509C00D91876 /* Build configuration list for PBXProject "SoftShakeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC2317831437509C00D91876;
+			productRefGroup = DC23178F1437509C00D91876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC23178D1437509C00D91876 /* SoftShakeDemo */,
+				DC2317B21437509D00D91876 /* SoftShakeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC23178C1437509C00D91876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC23179D1437509C00D91876 /* InfoPlist.strings in Resources */,
+				DC2317A51437509D00D91876 /* SoftShakeDemoViewController.h in Resources */,
+				DC2317AA1437509D00D91876 /* SoftShakeDemoViewController_iPhone.xib in Resources */,
+				DC2317AD1437509D00D91876 /* SoftShakeDemoViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2317B01437509D00D91876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2317C01437509D00D91876 /* InfoPlist.strings in Resources */,
+				DC2317C21437509D00D91876 /* SoftShakeDemoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC2317B11437509D00D91876 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC23178A1437509C00D91876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC23179F1437509C00D91876 /* main.m in Sources */,
+				DC2317A31437509D00D91876 /* SoftShakeDemoAppDelegate.m in Sources */,
+				DC2317A71437509D00D91876 /* SoftShakeDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2317AE1437509D00D91876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2317C41437509D00D91876 /* SoftShakeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2317BA1437509D00D91876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC23178D1437509C00D91876 /* SoftShakeDemo */;
+			targetProxy = DC2317B91437509D00D91876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC23179B1437509C00D91876 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC23179C1437509C00D91876 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC2317A81437509D00D91876 /* SoftShakeDemoViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2317A91437509D00D91876 /* en */,
+			);
+			name = SoftShakeDemoViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DC2317AB1437509D00D91876 /* SoftShakeDemoViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2317AC1437509D00D91876 /* en */,
+			);
+			name = SoftShakeDemoViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		DC2317BE1437509D00D91876 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2317BF1437509D00D91876 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2317C51437509D00D91876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2317C61437509D00D91876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2317C81437509D00D91876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftShakeDemo/SoftShakeDemo-Prefix.pch";
+				INFOPLIST_FILE = "SoftShakeDemo/SoftShakeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC2317C91437509D00D91876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftShakeDemo/SoftShakeDemo-Prefix.pch";
+				INFOPLIST_FILE = "SoftShakeDemo/SoftShakeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC2317CB1437509D00D91876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoftShakeDemo.app/SoftShakeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftShakeDemo/SoftShakeDemo-Prefix.pch";
+				INFOPLIST_FILE = "SoftShakeDemoTests/SoftShakeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC2317CC1437509D00D91876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoftShakeDemo.app/SoftShakeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftShakeDemo/SoftShakeDemo-Prefix.pch";
+				INFOPLIST_FILE = "SoftShakeDemoTests/SoftShakeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2317881437509C00D91876 /* Build configuration list for PBXProject "SoftShakeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2317C51437509D00D91876 /* Debug */,
+				DC2317C61437509D00D91876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2317C71437509D00D91876 /* Build configuration list for PBXNativeTarget "SoftShakeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2317C81437509D00D91876 /* Debug */,
+				DC2317C91437509D00D91876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC2317CA1437509D00D91876 /* Build configuration list for PBXNativeTarget "SoftShakeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2317CB1437509D00D91876 /* Debug */,
+				DC2317CC1437509D00D91876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2317851437509C00D91876 /* Project object */;
+}
