@@ -10,4 +10,7 @@
 
 @interface SoftShakeDemoViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *outputValue;
+@property (nonatomic, retain) IBOutlet UITextField *inputValue;
+
 @end

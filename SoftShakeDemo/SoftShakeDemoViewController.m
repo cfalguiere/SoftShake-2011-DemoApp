@@ -10,6 +10,8 @@
 
 @implementation SoftShakeDemoViewController
 
+@synthesize inputValue, outputValue;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -59,6 +61,12 @@
     } else {
         return YES;
     }
+}
+
+#pragma mark - selectors
+
+-(IBAction)handleGoButton:(id)sender {
+    outputValue.text = @"999";   
 }
 
 @end
