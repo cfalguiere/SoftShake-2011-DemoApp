@@ -71,7 +71,7 @@
     float sourceValue = [converter parseValue:inputValue.text];
     float targetValue = [converter convert:sourceValue];
     outputValue.text = [converter formatValue:targetValue];
-    converter = nil;
+    [converter release];
 }
 
 @end

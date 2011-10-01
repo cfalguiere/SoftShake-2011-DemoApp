@@ -18,15 +18,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIWindow *tmpWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = tmpWindow;
+    [tmpWindow release];
+    SoftShakeDemoViewController *tmpController = nil;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[SoftShakeDemoViewController alloc] initWithNibName:@"SoftShakeDemoViewController_iPhone" bundle:nil]; 
+        tmpController = [[SoftShakeDemoViewController alloc] initWithNibName:@"SoftShakeDemoViewController_iPhone" bundle:nil]; 
     } else {
-        self.viewController = [[SoftShakeDemoViewController alloc] initWithNibName:@"SoftShakeDemoViewController_iPad" bundle:nil]; 
+        tmpController = [[SoftShakeDemoViewController alloc] initWithNibName:@"SoftShakeDemoViewController_iPad" bundle:nil]; 
     }
+    self.viewController = tmpController;
+    [tmpController release];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)dealloc {
+    [super dealloc];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
