@@ -27,6 +27,8 @@
 		DC2317D01437555C00D91876 /* CurrencyConverterServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317CE1437555C00D91876 /* CurrencyConverterServiceTest.m */; };
 		DC2317D31437563F00D91876 /* CurrencyConverterService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317D21437563F00D91876 /* CurrencyConverterService.m */; };
 		DC2317D414375F4000D91876 /* CurrencyConverterService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2317D21437563F00D91876 /* CurrencyConverterService.m */; };
+		DC2317D61437644900D91876 /* Icon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2317D51437644900D91876 /* Icon-57x57.png */; };
+		DC2317D81437645000D91876 /* Icon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2317D71437645000D91876 /* Icon-72x72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		DC2317CE1437555C00D91876 /* CurrencyConverterServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterServiceTest.m; sourceTree = "<group>"; };
 		DC2317D11437563F00D91876 /* CurrencyConverterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterService.h; sourceTree = "<group>"; };
 		DC2317D21437563F00D91876 /* CurrencyConverterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterService.m; sourceTree = "<group>"; };
+		DC2317D51437644900D91876 /* Icon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57x57.png"; sourceTree = "<group>"; };
+		DC2317D71437645000D91876 /* Icon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72x72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		DC2317831437509C00D91876 = {
 			isa = PBXGroup;
 			children = (
+				DC2317D71437645000D91876 /* Icon-72x72.png */,
+				DC2317D51437644900D91876 /* Icon-57x57.png */,
 				DC2317981437509C00D91876 /* SoftShakeDemo */,
 				DC2317BB1437509D00D91876 /* SoftShakeDemoTests */,
 				DC2317911437509C00D91876 /* Frameworks */,
@@ -240,6 +246,8 @@
 				DC2317A51437509D00D91876 /* SoftShakeDemoViewController.h in Resources */,
 				DC2317AA1437509D00D91876 /* SoftShakeDemoViewController_iPhone.xib in Resources */,
 				DC2317AD1437509D00D91876 /* SoftShakeDemoViewController_iPad.xib in Resources */,
+				DC2317D61437644900D91876 /* Icon-57x57.png in Resources */,
+				DC2317D81437645000D91876 /* Icon-72x72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
