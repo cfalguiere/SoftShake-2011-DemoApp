@@ -12,8 +12,8 @@
 
 @interface SoftShakeDemoAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (retain, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) SoftShakeDemoViewController *viewController;
+@property (retain, nonatomic) SoftShakeDemoViewController *viewController;
 
 @end
