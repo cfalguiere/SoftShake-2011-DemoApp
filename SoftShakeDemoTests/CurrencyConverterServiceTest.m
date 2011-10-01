@@ -20,5 +20,12 @@
     STAssertEquals(outputValue, expectedOutputValue, nil);    
 }
 
+- (void)testConvert10 {
+    CurrencyConverterService *converter = [[CurrencyConverterService alloc] init];
+    float inputValue = 10; // EUR
+    float expectedOutputValue = 12.2; // CHF
+    float outputValue = [converter convert:inputValue];
+    STAssertEquals(outputValue, expectedOutputValue, nil);    
+}
 
 @end

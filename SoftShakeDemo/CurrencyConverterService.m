@@ -21,7 +21,7 @@
 }
 
 - (float)convert:(float)input {
-    return 1.22;
+    return input*1.22;
 }
 
 @end
